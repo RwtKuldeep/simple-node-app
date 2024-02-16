@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
 
   // Write the response body
-  res.end('Hello, World!\n');
+  res.end('Hello, Docker\n');
 });
 
 // Start the server and listen for incoming requests
